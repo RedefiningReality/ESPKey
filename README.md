@@ -32,7 +32,7 @@ Note: requires knowing date and time of first scan after ESPKey startup
 1. Navigate to the `databases` directory
 2. Open `ids.json` in a text editor
 3. Search for the ID number
-4. `..."[id number]": "[`*enter name here*`]"...`
+4. `..."[id number]": "`*enter name here*`"...`
 
 #### Save IDs only
 1. Save ESPKey log to `log.txt` and place it in the same directory as johnfuckedup.py
