@@ -25,7 +25,7 @@ Note: requires knowing the date and time of a scan that is in the database and t
 2. Enter 2 to print timestamps and ID scans
 3. Check date and time of known scan and see if you find one that's close (within 1-2 seconds) listed
    - For step 5, *use the date and time of the scan found in the console after running print.py* -> it might be off from the actual time of the scan by 1 or 2 seconds
-4. Run `alias.py`
+4. Run `python3 alias.py`
 5. Enter the date and time of the scan found in step three
 6. Enter the name of the person you'd like to associate with this ID
 
