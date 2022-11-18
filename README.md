@@ -32,3 +32,7 @@ Note: requires knowing the date and time of a scan that is in the database and t
 #### Save IDs only
 1. Save ESPKey log to `log.txt` and place it in the same directory as johnfuckedup.py
 2. Run `python3 johnfuckedup.py`
+
+#### Print Database Information
+1. Run `python3 print.py`
+2. Follow prompts
