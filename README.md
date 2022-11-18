@@ -37,7 +37,7 @@ Note: requires knowing date and time of first scan after ESPKey startup
 1. Navigate to the `databases` directory
 2. Open `ids.json` in a text editor
 3. Search for the ID number
-4. `..."[id number]": "*enter name here*"...`
+4. `..."[id number]": "*`enter name here`"...`
 
 ### Print Database Information
 1. Run `python3 print.py`
