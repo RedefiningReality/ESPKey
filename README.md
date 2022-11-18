@@ -27,7 +27,7 @@ Note: requires knowing the date and time of a scan that is in the database and t
    - For step 5, *use the date and time of the scan found in the console after running print.py* -> it might be off from the actual time of the scan by 1 or 2 seconds
 4. Run `python3 alias.py`
 5. Enter the date and time of the scan found in step three
-6. Enter the name of the person you'd like to associate with this ID
+6. Enter the name of the person who scanned in at that time
 
 #### Save IDs only
 1. Save ESPKey log to `log.txt` and place it in the same directory as johnfuckedup.py
