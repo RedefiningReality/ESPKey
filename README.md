@@ -20,7 +20,7 @@ Note: requires knowing date and time of first scan after ESPKey startup
 3. Enter the date and time of the first scan after startup
 
 #### Associate person's name with an ID
-Note: requires knowing the date and time of a scan that is in the database and the name of the person who scanned in
+**Method 1: You know the date and time of a scan that is in the database and the name of the person who scanned in**
 1. Run `python3 print.py`
 2. Enter 2 to print timestamps and ID scans
 3. Check date and time of known scan and see if you find one that's close (within 1-2 seconds) listed
@@ -28,6 +28,11 @@ Note: requires knowing the date and time of a scan that is in the database and t
 4. Run `python3 alias.py`
 5. Enter the date and time of the scan found in step three
 6. Enter the name of the person who scanned in at that time
+**Method 2: You know the actual ID number and the person's name**
+1. Navigate to the `databases` directory
+2. Open `ids.json` in a text editor
+3. Search for the ID number
+4. ..."[id number]": "[*enter name here*]"...
 
 #### Save IDs only
 1. Save ESPKey log to `log.txt` and place it in the same directory as johnfuckedup.py
