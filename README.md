@@ -14,7 +14,7 @@ Here's the idea: You want to collect a bunch of IDs from your dorm building's fr
 ### Usage
 
 #### Save IDs and Scan Times
-Note: requires knowing date and time of first scan after startup
+Note: requires knowing date and time of first scan after ESPKey startup
 1. Save ESPKey log to `log.txt` and place it in the same directory as update.py
 2. Run `python3 update.py`
 3. Enter the date and time of the first scan after startup
