@@ -7,7 +7,7 @@ Here's the idea: You want to collect a bunch of IDs from your dorm building's fr
 ### Files
 - [espkey.py](espkey.py) - library to be imported by other scripts
 - [update.py](update.py) - used to update both databases
-- [johnfuckedup.py](johnfuckedup.py) - used to update only the database of valid IDs (not the database of scan times)
+- [johnfuckedup.py](johnfuckedup.py) - used to update *only* the database of valid IDs (not the database of scan times)
 - [alias.py](alias.py) - used to associate a name with an ID given a known scan time and the name of the person who scanned in
 - [print.py](print.py) - prints out the JSON databases
 
