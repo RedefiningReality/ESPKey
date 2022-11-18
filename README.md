@@ -19,7 +19,7 @@ Note: requires knowing date and time of first scan after ESPKey startup
 2. Run `python3 update.py`
 3. Enter the date and time of the first scan after startup
 
-### Associate person's name with an ID
+### Provide a name for a known ID
 **Method 1: You know the date and time of a scan that is in the database and the name of the person who scanned in**
 1. Run `python3 print.py`
 2. Enter 2 to print timestamps and ID scans
