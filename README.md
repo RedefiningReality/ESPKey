@@ -33,7 +33,7 @@ Note: requires knowing date and time of first scan after ESPKey startup
 5. Enter the date and time of the scan found in step three
 6. Enter the name of the person who scanned in at that time
 
-**Method 2: You know the actual ID number and the person's name**
+**Method 2: You know the name of a person and their actual ID number**
 1. Navigate to the `databases` directory
 2. Open `ids.json` in a text editor
 3. Search for the ID number
