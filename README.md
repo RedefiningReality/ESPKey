@@ -19,6 +19,10 @@ Note: requires knowing date and time of first scan after ESPKey startup
 2. Run `python3 update.py`
 3. Enter the date and time of the first scan after startup
 
+### Save IDs only
+1. Save ESPKey log to `log.txt` and place it in the same directory as johnfuckedup.py
+2. Run `python3 johnfuckedup.py`
+
 ### Provide a name for a known ID
 **Method 1: You know the date and time of a scan that is in the database and the name of the person who scanned in**
 1. Run `python3 print.py`
@@ -34,10 +38,6 @@ Note: requires knowing date and time of first scan after ESPKey startup
 2. Open `ids.json` in a text editor
 3. Search for the ID number
 4. `..."[id number]": "`*enter name here*`"...`
-
-### Save IDs only
-1. Save ESPKey log to `log.txt` and place it in the same directory as johnfuckedup.py
-2. Run `python3 johnfuckedup.py`
 
 ### Print Database Information
 1. Run `python3 print.py`
